@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(120deg, #f0eded, #fbf9f9);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: linear-gradient(120deg, #ecf5f5, #10b0a3);
+    border-radius: 10px;
+}
+
+.p {
+    align-self: baseline;
+    font-size: xx-large;
+    font-style: italic;
+}
